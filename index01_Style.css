@@ -1,0 +1,36 @@
+body{
+  background-image: url('../images/web/header.jpg');
+  background-repeat: no-repeat;  
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p{
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 69vh;
+  
+}
+.btn{ 
+  background-color: #e76634;
+  border: 1px #e76634;
+  border-radius: 23px;
+  padding: 1%;
+  color: white;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top:0%;
+  margin-bottom:0%;
+  transform: scale(1);
+  transition: 1s;
+}
+.btn:hover{
+  transform: scale(1.2);
+  transition: 1s;
+  
+}
